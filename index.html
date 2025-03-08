@@ -3,55 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        img {
-            width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+    <title>Ansh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <img src="https://raw.githubusercontent.com/Anshhh369/my-portfolio/blob/main/3450ACDA-6550-4965-A86B-0630E6D7CAE6.jpg" alt="My Profile Picture">
-        <h2>Your Name</h2>
-        <p>Hi, I'm a passionate developer with expertise in AI, ML, and web development.</p>
-        <h3>Projects</h3>
-        <ul>
-            <h3>Scheduling Chatbot</h3>
-            <p>A chatbot built using GPT-3 and LangChain.</p>
-            <a href="https://github.com/Anshhh369/Chatbot" target="_blank">🔗 GitHub Repository</a><br>
-            <a href="https://medium.com/@anshaya92/unleashing-the-power-of-langchain-building-a-chatbot-with-limitless-capabilities-2f2ad0dc5346" target="_blank">📄 Medium Blog</a><br>
-            <iframe width="56" height="31" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FD3GB-TPBPgTq6DCpXvImQ.png" frameborder="0" allowfullscreen></iframe>
-            
-            <h3>Employee Attrition Prediction</h3>
-            <p>A Django-based web application built using Python and Sqlite3.</p>
-            <a href="https://github.com/Anshhh369/Chatbot" target="_blank">🔗 GitHub Repository</a><br>
-            <a href="https://medium.com/@anshaya92/unleashing-the-power-of-langchain-building-a-chatbot-with-limitless-capabilities-2f2ad0dc5346" target="_blank">📄 Medium Blog</a><br>
-            <iframe width="56" height="31" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FD3GB-TPBPgTq6DCpXvImQ.png" frameborder="0" allowfullscreen></iframe>
-            
-<!--             <li><a href="https://github.com/Anshhh369/PROManagement" target="_blank">Project 1: Employee Attrition Prediction</a></li>
-            <li><a href="https://github.com/Anshhh369/Chatbot" target="_blank">Project 2: Scheduling Chatbot</a></li>
-            <li><a href="#">Project 3</a></li> -->
-        </ul>
-        <h3>Contact</h3>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/your-github-username">Your GitHub</a></p>
-    </div>
+    <header>
+        <nav>
+            <h1>Ansh's Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about">
+        <div class="hero">
+            <img src="https://raw.githubusercontent.com/Anshhh369/my-portfolio/blob/main/3450ACDA-6550-4965-A86B-0630E6D7CAE6.jpg" alt="Profile Picture">
+            <h2>Hello, I'm <span>Ansh</span> 👋</h2>
+            <p>AI/ML Engineer | Full Stack Developer | Data Scientist</p>
+            <div class="buttons">
+                <a href="https://github.com/your-github" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                <a href="resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FD3GB-TPBPgTq6DCpXvImQ.png" alt="Project 1">
+                <h3>AI Chatbot</h3>
+                <p>Built using GPT-4 and Flask.</p>
+                <a href="https://github.com/Anshhh369/Chatbot" target="_blank">GitHub</a>
+                <a href="https://medium.com/@anshaya92/unleashing-the-power-of-langchain-building-a-chatbot-with-limitless-capabilities-2f2ad0dc5346" target="_blank">Medium Blog</a>
+            </div>
+            <div class="project">
+                <img src="images/project2.png" alt="Project 2">
+                <h3>Image Classifier</h3>
+                <p>Machine learning model for image recognition.</p>
+                <a href="https://github.com/Anshhh369/PROManagement" target="_blank">GitHub</a>
+                <a href="" target="_blank">Bot</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>Python</p>
+            <div class="progress"><div class="progress-bar python"></div></div>
+        </div>
+        <div class="skill">
+            <p>Machine Learning</p>
+            <div class="progress"><div class="progress-bar ml"></div></div>
+        </div>
+        <div class="skill">
+            <p>Flask</p>
+            <div class="progress"><div class="progress-bar flask"></div></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </body>
 </html>
