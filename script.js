@@ -4,3 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           bar.classList.contains("ml") ? "85%" : "80%";
     });
 });
+
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
