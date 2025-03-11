@@ -3,14 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1E1E2F;
+    background-color: #121212;
     color: white;
     text-align: center;
 }
 
 /* Navbar */
 header {
-    background: #282A36;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -32,15 +32,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #50FA7B;
+    color: white;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
 }
 
 /* Hero Section */
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
     padding: 50px;
 }
@@ -56,7 +61,7 @@ nav ul li a {
 .hero-img img {
     width: 180px;
     height: auto;
-    border-radius: 30px;
+    border-radius: 50%;
     box-shadow: 0px 8px 16px rgba(80, 250, 123, 0.3);
 }
 
@@ -72,7 +77,7 @@ section {
     padding: 12px 20px;
     margin: 10px;
     display: inline-block;
-    background: #FF79C6;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
     color: white;
     border-radius: 8px;
     font-weight: bold;
@@ -80,7 +85,7 @@ section {
 }
 
 .buttons a:hover, button:hover {
-    background: #BD93F9;
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
 }
 
 /* Projects */
@@ -91,11 +96,16 @@ section {
 }
 
 .project {
-    background: #282A36;
+    background: #1f1f1f;
     padding: 15px;
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(255, 69, 96, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .project img {
@@ -124,4 +134,10 @@ input, textarea {
 button {
     padding: 10px;
     background: #50FA7B;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #66FF99;
 }
