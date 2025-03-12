@@ -130,11 +130,16 @@ h2 {
     margin-top: 20px;
 }
 
-/* /* Ensure all individual projects are contained properly */
+/* Ensure each project item fits within the grid */
 .project-item {
-    width: 100%; /* Make sure each project takes up the full width within the grid cell */
-    height: auto; /* Allow projects to resize naturally */
-} */
+    width: 100%; /* Forces projects to fill their grid space */
+    height: auto;
+    border: 1px solid #ccc; /* Adds border to make the project items more visible */
+    padding: 15px;
+    background-color: #f9f9f9; /* Light background for each project item */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
 
 .project {
@@ -206,12 +211,24 @@ h2 {
     width: 80%; /* Adjust dynamically */
 }
 
-/* Contact */
+/* /* Contact */
 form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
     margin: auto;
+} */
+
+/* Contact Section */
+.contact-info a {
+    text-decoration: none;
+    color: #4fa3f7; /* Lighter blue */
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #3d8bc0; /* Slightly darker shade for hover effect */
 }
 
 input, textarea {
