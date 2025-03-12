@@ -103,6 +103,12 @@ nav ul li a:hover {
 }
 
 /* === Projects Section === */
+#projects {
+    background: #121212; /* Darker Black for Contrast */
+    padding: 60px 10%;
+    text-align: center;
+}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -111,14 +117,15 @@ nav ul li a:hover {
 }
 
 .project {
-    flex: 1 1 calc(33.33% - 20px);  /* Make it responsive */
-    max-width: 300px;
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 15px;
+    flex: 1 1 300px; /* Makes all projects uniform */
+    max-width: 320px;
+    background: #1c1c1c; /* Dark Gray */
+    border-radius: 12px;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 15px rgba(255, 221, 153, 0.2); /* Subtle gold glow */
     transition: transform 0.3s ease-in-out;
+    border: 1px solid #ffdd99; /* Gold Border */
 }
 
 .project:hover {
@@ -135,8 +142,8 @@ nav ul li a:hover {
 
 .project h3 {
     margin-top: 15px;
-    font-size: 1.5em;
-    color: #f5f5dc;
+    font-size: 1.4em;
+    color: #ffdd99;
 }
 
 .project p {
@@ -148,16 +155,16 @@ nav ul li a:hover {
     display: inline-block;
     text-decoration: none;
     color: #0d0d0d;
-    background: #f5f5dc;
+    background: #ffdd99;
     padding: 8px 14px;
     border-radius: 6px;
     font-weight: bold;
-    margin: 5px;
-    transition: background 0.3s, color 0.3s;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
 }
 
 .project a:hover {
-    background: #ffdd99;
+    background: #d4af37; /* Brighter Gold */
     color: #000;
 }
 
