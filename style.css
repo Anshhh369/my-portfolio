@@ -220,13 +220,13 @@ form {
 } */
 
 /* Contact Section */
-.contact-info a {
+.contact a {
     text-decoration: none;
     color: #4fa3f7; /* Lighter blue */
     font-weight: bold;
 }
 
-.contact-info a:hover {
+.contact a:hover {
     text-decoration: underline;
     color: #3d8bc0; /* Slightly darker shade for hover effect */
 }
