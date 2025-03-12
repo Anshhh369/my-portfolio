@@ -130,11 +130,11 @@ h2 {
     margin-top: 20px;
 }
 
-/* Ensure all individual projects are contained properly */
+/* /* Ensure all individual projects are contained properly */
 .project-item {
     width: 100%; /* Make sure each project takes up the full width within the grid cell */
     height: auto; /* Allow projects to resize naturally */
-}
+} */
 
 
 .project {
