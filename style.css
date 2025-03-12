@@ -125,10 +125,17 @@ h2 {
 /* Projects */
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
+
+/* Ensure all individual projects are contained properly */
+.project-item {
+    width: 100%; /* Make sure each project takes up the full width within the grid cell */
+    height: auto; /* Allow projects to resize naturally */
+}
+
 
 .project {
     background: #1e1e1e;
