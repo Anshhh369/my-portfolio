@@ -120,7 +120,7 @@ nav ul li a:hover {
 
 .project {
     flex: 1 1 300px; /* Makes all projects uniform */
-    max-width: 320px;
+    max-width: 1100px;
     background: #1c1c1c; /* Dark Gray */
     border-radius: 12px;
     padding: 20px;
