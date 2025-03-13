@@ -86,7 +86,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.about .buttons {
+.buttons a {
     text-decoration: none;
     background: #f5f5dc;
     color: #0d0d0d;
@@ -97,7 +97,7 @@ nav ul li a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.about .buttons :hover {
+.buttons a:hover {
     background: #ffdd99;
     color: #000;
     transform: scale(1.05);
