@@ -114,12 +114,25 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    align-items: stretch; /* Ensures all cards have equal height */
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px; /* Adjust as needed */
+    height: 400px; /* Ensures equal height */
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* .project {
     flex: 1 1 300px; /* Makes all projects uniform */
     max-width: 320px;
+    height: 400px; /* Ensures equal height */
     background: #1c1c1c; /* Dark Gray */
     border-radius: 12px;
     padding: 20px;
@@ -127,7 +140,7 @@ nav ul li a:hover {
     box-shadow: 0px 4px 15px rgba(255, 221, 153, 0.2); /* Subtle gold glow */
     transition: transform 0.3s ease-in-out;
     border: 1px solid #ffdd99; /* Gold Border */
-}
+} */
 
 .project:hover {
     transform: scale(1.05);
