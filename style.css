@@ -110,6 +110,13 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px;
+    max-width: 320px;
+    margin: auto;
+}
 
 .project {
     flex: 1 1 300px; /* Makes all projects uniform */
