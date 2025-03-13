@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 .project {
-    display: flex;
+    flex: 1 1 300px;;
     flex-direction: column;
     justify-content: space-between;
     width: 300px; /* Adjust as needed */
@@ -127,6 +127,9 @@ nav ul li a:hover {
     background-color: #1a1a1a;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0px 4px 15px rgba(255, 221, 153, 0.2); /* Subtle gold glow */
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ffdd99; /* Gold Border */
 }
 
 /* .project {
