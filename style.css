@@ -220,6 +220,15 @@ nav ul li a:hover {
     transition: transform 0.3s ease-in-out;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffcc00;
+}
+    
 .contact a {
     font-size: 24px;
     margin-bottom: 10px;
