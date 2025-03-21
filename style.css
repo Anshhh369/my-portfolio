@@ -225,6 +225,10 @@ body.dark-mode header {
     background-color: #1f1f1f;
 }
 
+body.dark-mode hero {
+    background-color: #1f1f1f;
+}
+
 body.dark-mode .project {
     background-color: #1e1e1e;
 }
