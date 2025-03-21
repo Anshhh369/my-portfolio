@@ -176,6 +176,22 @@ h2 {
     color: #00bcd4;
 }
 
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #00bcd4;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background: #008fa1;
+}
+
 /* Skills */
 .skill {
     margin-bottom: 20px;
