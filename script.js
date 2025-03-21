@@ -1,10 +1,21 @@
-document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".progress-bar").forEach((bar) => {
-        bar.style.width = bar.classList.contains("python") ? "90%" :
-                          bar.classList.contains("ml") ? "85%" : "80%";
-    });
+// Dark mode toggle
+const toggleBtn = document.querySelector('.dark-toggle');
+toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
 });
 
-function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
+// Scroll reveal animation
+const sections = document.querySelectorAll('section');
+
+const revealOnScroll = () => {
+    sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+            sec.classList.add('show');
+        }
+    });
+};
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
+
