@@ -148,6 +148,7 @@ h2 {
 /* Projects */
 .project-container {
     display: grid;
+    background: linear-gradient(to right, #e0f7fa, #fff);
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
@@ -196,6 +197,7 @@ h2 {
 /* Skills */
 .skill {
     margin-bottom: 20px;
+    background: linear-gradient(to right, #e0f7fa, #fff);
 }
 
 .progress {
@@ -211,9 +213,9 @@ h2 {
     animation: fillBar 1.5s ease forwards;
 }
 
-.progress-bar.python { background-color: #f9a825; width: 90%; }
-.progress-bar.ml { background-color: #4caf50; width: 85%; }
-.progress-bar.llms { background-color: #ff5722; width: 80%; }
+.progress-bar.python { background-color: #00bcd4; width: 90%; }
+.progress-bar.ml { background-color: #00bcd4; width: 85%; }
+.progress-bar.llms { background-color: #00bcd4; width: 80%; }
 
 /* Education & Contact */
 #education p,
