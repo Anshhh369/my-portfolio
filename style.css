@@ -250,11 +250,15 @@ body.dark-mode header {
 }
 
 body.dark-mode hero {
-    background-color: #1c1c1c;
+    background-color: #1f1f1f;
 }
 
 body.dark-mode .project {
-    background-color: #1c1c1c;
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .project-container {
+    background-color: #1f1f1f;
 }
 
 body.dark-mode .buttons a {
