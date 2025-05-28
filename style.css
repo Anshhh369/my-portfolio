@@ -276,7 +276,7 @@ body.dark-mode .progress {
 /* Toggle Button */
 .dark-toggle {
     position:fixed;
-    top: 20px;
+    top: 40px;
     right: 20px;
     background-color: #00bcd4;
     border: none;
